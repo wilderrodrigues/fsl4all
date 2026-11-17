@@ -1,0 +1,13 @@
+set fmri(mc) 1
+set fmri(st) 4
+set fmri(st_file) "./slice_timings.txt"
+set fmri(bet_yn) 1
+set fmri(smooth) 6.0
+set fmri(temphp_yn) 1
+set fmri(paradigm_hp) 100
+
+set fmri(reghighres_yn) 1
+set fmri(reghighres_dof) BBR
+
+set fmri(regstandard_yn) 1
+set fmri(regstandard_nonlinear_yn) 1

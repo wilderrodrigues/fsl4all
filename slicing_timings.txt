@@ -1,0 +1,1 @@
+FEAT_shift[i] = 0.5 - SliceTiming[i] / TR

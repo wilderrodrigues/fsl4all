@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native extensions and build outputs
+*.so
+*.dylib
+*.dll
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments and Conda local state
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+.python-version
+.conda/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# Datasets and pre-processed outputs
+datasets/openneuro/ds004192
+datasets/uu
+pipelines/**/output
