@@ -1,0 +1,58 @@
+# FEAT 6 first-level preprocessing-only design.
+# Generated values are inserted by build_design.ts.
+
+set fmri(version) 6.00
+set fmri(inmelodic) 0
+set fmri(level) 1
+set fmri(analysis) 1
+set fmri(relative_yn) 0
+set fmri(help_yn) 0
+set fmri(featwatcher_yn) 0
+set fmri(sscleanup_yn) 0
+set fmri(overwrite_yn) 0
+
+set fmri(outputdir) __OUTPUT_DIR__
+set fmri(tr) __TR__
+set fmri(npts) __NPTS__
+set fmri(ndelete) __DELETE_VOLUMES__
+set fmri(multiple) 1
+set fmri(inputtype) 2
+set fmri(totalVoxels) __TOTAL_VOXELS__
+
+# Pre-statistics
+set fmri(filtering_yn) 1
+set fmri(mc) 1
+set fmri(sh_yn) 0
+set fmri(regunwarp_yn) 0
+set fmri(alternateReference_yn) 0
+set fmri(st) 4
+set fmri(st_file) __SLICE_TIMING_FILE__
+set fmri(st_opts_d) __SLICE_AXIS__
+set fmri(bet_yn) 1
+set fmri(smooth) __SMOOTH_FWHM_MM__
+set fmri(norm_yn) 0
+set fmri(perfsub_yn) 0
+set fmri(temphp_yn) 1
+set fmri(templp_yn) 0
+set fmri(paradigm_hp) __HIGHPASS_SECONDS__
+set fmri(melodic_yn) 0
+
+# Statistics are intentionally disabled; this is preprocessing only.
+set fmri(stats_yn) 0
+set fmri(poststats_yn) 0
+
+# Functional -> T1: rigid BBR. T1 -> MNI152: FLIRT initialisation + FNIRT.
+set fmri(reginitial_highres_yn) 0
+set fmri(reghighres_yn) 1
+set fmri(reghighres_search) 90
+set fmri(reghighres_dof) BBR
+set fmri(regstandard_yn) 1
+set fmri(regstandard) __STANDARD_BRAIN__
+set fmri(regstandard_search) 90
+set fmri(regstandard_dof) 12
+set fmri(regstandard_nonlinear_yn) 1
+set fmri(regstandard_nonlinear_warpres) __FNIRT_WARP_RESOLUTION_MM__
+set fmri(fnirt_config) "T1_2_MNI152_2mm"
+
+set feat_files(1) __BOLD_FILE__
+set highres_files(1) __T1_BRAIN_FILE__
