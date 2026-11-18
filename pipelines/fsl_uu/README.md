@@ -19,7 +19,7 @@ WIP
                    --check \
                    --dataset-root path_to_data \
                    --output validation \
-                   --jobs 4
+                   --jobs 8
 ```
 
 ### Execute pipeline
@@ -29,7 +29,7 @@ WIP
                    --execute \
                    --dataset-root path_to_data \
                    --output validation \
-                   --jobs 4
+                   --jobs 8
 ```
 
 ## Inspecting Results
