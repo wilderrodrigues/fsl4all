@@ -7,6 +7,8 @@ The tooling and structure of the repository was further extended to support the 
 Youth fMRI data. The UU data is not publicly available. However, the code has been made open to facilitate the adoption
 by other university staff members and researchers.
 
+![](images/fsl_feat_registration.png)
+
 ## Project Structure
 
 The project contains two mains sub-directories under the `pipelines` directory:
