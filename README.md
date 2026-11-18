@@ -1,4 +1,4 @@
-# FSL FEAT pre-processing bundle for the fMRI data
+# FSL FEAT pre-processing bundle for fMRI data
 
 This project focuses on how to use [FSL](https://fsl.fmrib.ox.ac.uk/fsl/docs/) to process and analyse fMRI data. It works
 out of the box with the [OpenNeuro Things-fMRI dataset](https://openneuro.org/datasets/ds004192/versions/1.0.7/download).

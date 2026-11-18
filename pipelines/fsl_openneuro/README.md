@@ -19,6 +19,7 @@ brew install deno
 * Linux
 ```shell
 sudo apt-get install datalad
+curl -fsSL https://deno.land/install.sh | sh
 ```
 
 The support Windows as well. Please feel free to check that for yourself: [DataLad Installation](https://handbook.datalad.org/en/latest/intro/installation.html)
