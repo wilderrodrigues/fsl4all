@@ -403,6 +403,9 @@ process_archive() {
   [[ "${actual_volumes}" -eq "${expected_output_volumes}" ]] || \
     fail "Standard-space output has ${actual_volumes} volumes; expected ${expected_output_volumes}"
   printf '[%s] Completed successfully: %s\n' "${ARCHIVE_KEY}" "${standard_4d}"
+
+  # Remove the filtered nii file to clean up space.
+  rm -rf ${filtered}
 }
 
 run_internal_worker() {
