@@ -336,7 +336,7 @@ if [[ "${ACTUAL_VOLUMES}" -ne "${EXPECTED_VOLUMES}" ]]; then
 fi
 
 # Remove the filtered nii file to clean up space.
-rm -rf ${filtered}
+rm -rf "${filtered}"
 
 printf 'Completed successfully\n'
 #printf '  Native preprocessed 4D:   %s\n' "${FILTERED}"
